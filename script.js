@@ -10,15 +10,19 @@ $(function(){
 
         }
 
-        $(".rem").on("click", function(){
+       /* $(".rem").on("click", function(){
             $(this).parent().animate({
                 
             }, 1000);
-        });
+        });*/
 
         $(".rem").on("click", function(){
             $(this).parent().fadeOut(1000);
             //$(this).parent().remove();  
         });
+
+        $("#priority").on("click", function(){
+            $(this).slideDown(5000);
+        })
     });
 })
