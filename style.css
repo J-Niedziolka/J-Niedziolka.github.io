@@ -1,3 +1,24 @@
 body{
     background-color: green;
 }
+
+.pos{
+    width: 20vw;
+
+    border-style: solid;
+    border-width: 3px;
+
+    margin-bottom: 6px;
+    padding: 3px 0px 3px 5px;
+}
+.asap{
+    background-color: red;
+}
+
+.medium{
+    background-color: yellow;
+}
+
+.low{
+    background-color: green;
+}
